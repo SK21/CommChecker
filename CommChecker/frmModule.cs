@@ -257,5 +257,21 @@ namespace CommChecker
             tbErrors.Select(tbErrors.Text.Length, 0);
             tbErrors.ScrollToCaret();
         }
+
+        private void button2_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            string Message = "Set subnet.";
+
+            Tls.ShowHelp(Message, "Subnet");
+            hlpevent.Handled = true;
+        }
+
+        private void button3_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            string Message = "Upload firmware.";
+
+            Tls.ShowHelp(Message, "Upload");
+            hlpevent.Handled = true;
+        }
     }
 }

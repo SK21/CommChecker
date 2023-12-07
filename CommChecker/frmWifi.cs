@@ -76,9 +76,9 @@ namespace CommChecker
 
         private void btnSendSubnet_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
-            string Message = "Rescan";
+            string Message = "Send subnet setting to teensy.";
 
-            mf.Tls.ShowHelp(Message, "Rescan");
+            mf.Tls.ShowHelp(Message, "Subnet");
             hlpevent.Handled = true;
         }
 

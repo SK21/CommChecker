@@ -16,10 +16,10 @@ namespace CommChecker
     {
         private static Hashtable HTfiles;
         private string cAppName = "CommChecker";
-        private string cAppVersion = "1.0.0";
+        private string cAppVersion = "1.0.1";
         private string cPropertiesFile;
         private string cSettingsDir;
-        private string cVersionDate = "05-Dec-2023";
+        private string cVersionDate = "07-Dec-2023";
         private frmModule mf;
 
         public clsTools(frmModule CallingForm)

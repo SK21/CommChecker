@@ -84,7 +84,7 @@ namespace CommChecker
 
         public bool ModuleReceiving()
         {
-            return cModuleIsReceivingData;
+            return cModuleIsReceivingData && ModuleSending();
         }
 
         public bool ModuleSending()

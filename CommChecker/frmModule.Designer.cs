@@ -326,9 +326,9 @@
             this.label4.Location = new System.Drawing.Point(19, 453);
             this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(163, 23);
+            this.label4.Size = new System.Drawing.Size(93, 23);
             this.label4.TabIndex = 241;
-            this.label4.Text = "Product PGN Time";
+            this.label4.Text = "PGN Time";
             // 
             // lbWifi
             // 
@@ -476,6 +476,7 @@
             this.button2.TabIndex = 249;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button2_HelpRequested);
             // 
             // button3
             // 
@@ -490,6 +491,7 @@
             this.button3.TabIndex = 250;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.button3_HelpRequested);
             // 
             // btnStart
             // 
