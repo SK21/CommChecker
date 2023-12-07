@@ -1,7 +1,7 @@
 This app is used to test the UDP connection to a Teensy 4.1
 
 
-1. connect teensy usb cable
+1. connect teensy usb cable and ethernet cable
 2. run CommChecker.exe in the folder CommCheckerApp
 2. upload test firmware (up arrow)
 	- make sure Teensy uploader stub is closed
